@@ -1,5 +1,5 @@
 {
-  "dependencies": {
+  "devDependencies": {
     "@11ty/eleventy": "^3.1.2"
   },
   "name": "eleventy-containerized",
