@@ -1,4 +1,4 @@
-name: mobimart
+name: 11ty-containerized
 
 services:
   dev:
@@ -9,7 +9,7 @@ services:
       - 8080:8080
     command: sleep infinity
     volumes:
-      - ./:/mobimart/app
+      - ./:/usr/src/11ty
 
 
   
