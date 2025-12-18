@@ -1,9 +1,9 @@
 // For format details, see https://aka.ms/vscode-remote/devcontainer.json
 {
-  "name": "cal-itp/mobimart-eleventy",
+  "name": "11ty-containerized",
   "dockerComposeFile": ["../compose.yml"],
   "service": "dev",
-  "workspaceFolder": "/mobimart/app",
+  "workspaceFolder": "/usr/src/11ty",
   "postStartCommand": ["/bin/bash"],
   "postAttachCommand": ["/bin/bash"],
   "customizations": {
